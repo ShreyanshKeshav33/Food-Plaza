@@ -1,22 +1,44 @@
-Food-Plaza
 
-TechStack:-
-Frontend Library: React JS
-Styling: Tailwind CSS
-Bundler: Parcel
-State Management: Redux Toolkit
-Working of project
-Utilized the Swiggy Live API to access real-time restaurant data within your city, effectively presenting this information with relevant details including Area name, Cuisines Category, and Ratings. Enabled users to easily search for specific restaurants by name and explore comprehensive lists of dishes with price details. Implemented a streamlined cart system for a hassle-free ordering experience, currently working for Bengaluru.
+# Food-Plaza
+A Robust app integrating React.js with Swiggy’s API which allows CORS, delivering user satisfaction, utilization of Parcel bundler and Tailwind CSS for streamlined setup and a polished UI, implementation of Redux Toolkit, ensuring efficient state management for users
 
-Bugs Fixes:
-Not responsive for Mobile phones
-Cart data is not stored anywhere, it should be in local storage for not logged in users to avoid losing on refresh page.
-While Signing up, user name is not displayed in the profile point instantly, needs a refresh. It doesn't happen in logging in process.
-Improve the design, take user address and payment details.
+## Tech Stack
+
+**Frontend Library**: React JS
+**Styling**: Tailwind CSS
+**Bundler**: Parcel
+**State Management**: Redux Toolkit
 
 
-How to run on your local
-Clone the repository
-Run npm init
-Run npm start.
+## Installation
+
+
+
+```bash
+  npm install food-plaza-main
+  cd food-plaza
+```
+    
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run start
+```
+
 Make sure you've allow CORS extension installed in your browser.
+
+## Bug Fixes
+
+- Not responsive for Mobile phones
+- Cart data is not stored anywhere, it should be in local storage for not logged in users to avoid losing on refresh page.
+- While Signing up, user name is not displayed in the profile point instantly, needs a refresh. It doesn't happen in logging in process.
+- Swiggy's API is repeatedly changing so we have to act according to it.
+- Improve the design, take user address and payment details.
+- 
+## Contributing
+
+Contributions are always welcome!
